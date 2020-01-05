@@ -1,0 +1,29 @@
+{
+  "name": "comment-feed",
+  "description": "just a beautiful structure for social media comment flow",
+  "version": "1.0.0",
+  "repository": "https://github.com/emkis/comment-feed.git",
+  "author": "Nicolas Jardim <nicolasemkis@gmail.com>",
+  "homepage": "http://emkis.profissional.ws/comment-feed",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+
+:root {
+  --background-body: #170e0e;
+  --background: #161f27;
+  --text-main: #dbdbdb;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: var(--text-main);
+  background: var(--background-body);
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.5px;
+}
+
+/* NAVBAR */
+nav {
+  height: 5rem;
+  padding: 1.5rem 3rem;
+  background: #201414;
+  color: #fff;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav .wrapper {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+nav .brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+nav li {
+  color: #ddd;
+  letter-spacing: 1px;
+}
+
+/* POSTS */
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.post__list {
+  margin: 3rem 10px;
+}
+
+.post__item .post__wrapper {
+  background: #271818;
+  padding: 3rem 2.5rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 20px 80px #070404;
+  box-shadow: 0 20px 80px #070404;
+}
+
+.post__item + .post__item {
+  margin: 2.3rem 0;
+}
+
+.post__wrapper {
+  margin-bottom: 3rem;
+}
+
+.post__wrapper .post__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.post__head .user__avatar {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.post__head .user__name {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.post__head .post__date {
+  font-size: 1.45rem;
+  color: #bbb;
+}
+
+/* COMMENTS */
+.post__item .comment {
+  background: var(--background-body);
+  padding: 2.5rem 2.5rem 2rem;
+  border-radius: 8px;
+  width: 74%;
+  margin: 0 auto;
+}
+
+.comment:last-child {
+  margin-bottom: 4rem;
+}
+
+.comment .comment__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.comment__head .user__avatar {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.comment__head .user__name {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.comment__head .comment__date {
+  font-size: 1.45rem;
+  color: #bbb;
+}
+/*# sourceMappingURL=App.css.map */
