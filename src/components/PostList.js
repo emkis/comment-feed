@@ -9,18 +9,18 @@ class PostList extends Component {
         id: 1,
         author: {
           name: "Nicolas Emkis",
-          avatar: "https://avatars2.githubusercontent.com/u/35054425?s=460&v=4"
+          avatar:
+            "http://emkis.profissional.ws/comment-feed/assets/avatars/nicolas-profile.jpg"
         },
         date: "26 Out 2019",
-        content:
-          "Galeras, esse texto é sobre algo muito importante e super massa",
+        content: "Galeras, essa frase é algo muito importante e super massa",
         comments: [
           {
             id: 1,
             author: {
               name: "Mirele Mazza",
               avatar:
-                "https://instagram.fpoa8-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.150.1199.1199a/s640x640/74713599_156719315601391_8067224052173219253_n.jpg?_nc_ht=instagram.fpoa8-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=Clw2a-b_klQAX9QMyos&oh=642ea7e728f15c64913814371ccbb000&oe=5EACF205"
+                "http://emkis.profissional.ws/comment-feed/assets/avatars/mirele-profile.jpg"
             },
             date: "26 Out 2019",
             content: "ai que expressivo, amei"
@@ -30,10 +30,10 @@ class PostList extends Component {
             author: {
               name: "Andre Martini",
               avatar:
-                "https://instagram.fpoa8-1.fna.fbcdn.net/v/t51.2885-15/e35/c140.0.360.360a/79142340_2526373367644131_8246825468476227732_n.jpg?_nc_ht=instagram.fpoa8-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=eK_CY5C130kAX_kPT2T&oh=a59b8e9c272ebb27a558d0438aff66e3&oe=5E959508"
+                "http://emkis.profissional.ws/comment-feed/assets/avatars/andre-profile.jpg"
             },
             date: "27 Out 2019",
-            content: "pô ai sim meu cupinxa"
+            content: "pô, ai sim meu cupinxa"
           }
         ]
       },
@@ -42,21 +42,70 @@ class PostList extends Component {
         author: {
           name: "Xuliene",
           avatar:
-            "https://instagram.fpoa8-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/78932941_488963668433514_6333167899355726876_n.jpg?_nc_ht=instagram.fpoa8-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=Meqw2L5Vg5cAX-aJPn1&oh=eff73dd45c5a90aae13be0a718b77dc2&oe=5EA1B3E0"
+            "http://emkis.profissional.ws/comment-feed/assets/avatars/xuliene-profile.jpg"
         },
         date: "31 Out 2019",
         content:
-          "no pain no gain, estudar e tal, incenso é cheiroso, ame as pranta, o enem é FODA",
+          "Ame seu doguinho, cuide das suas prantas, se hidrate e faça exercícios",
         comments: [
           {
             id: 1,
             author: {
               name: "Nicolas Emkis",
               avatar:
-                "https://avatars2.githubusercontent.com/u/35054425?s=460&v=4"
+                "http://emkis.profissional.ws/comment-feed/assets/avatars/nicolas-profile.jpg"
             },
             date: "01 Nov 2019",
-            content: "ô pranta, cê sabe cantar raça negra?"
+            content: "um exêmplo de pessoa, uma deusa, eu diria"
+          }
+        ]
+      },
+      {
+        id: 3,
+        author: {
+          name: "Mirele Mazza",
+          avatar:
+            "http://emkis.profissional.ws/comment-feed/assets/avatars/mirele-profile.jpg"
+        },
+        date: "22 Fev 2020",
+        content: `"Não se pode duvidar de que todos os nossos conhecimentos 
+          começam com a experiência, porque, com efeito, como haveria de 
+          exercitar-se a faculdade de se conhecer, se não fosse pelos objetos 
+          que, excitando os nossos sentidos, de uma parte, produzem por si 
+          mesmos representações, e de outra parte, impulsionam a nossa 
+          inteligência a compará-los entre si, a reuni-los ou separá-los, e 
+          deste modo à elaboração da matéria informe das impressões sensíveis 
+          para esse conhecimento das coisas que se denomina experiência?"`,
+        comments: [
+          {
+            id: 1,
+            author: {
+              name: "Nicolas Emkis",
+              avatar:
+                "http://emkis.profissional.ws/comment-feed/assets/avatars/nicolas-profile.jpg"
+            },
+            date: "22 Fev 2020",
+            content: "depois desse texto nossa, tudo faz sentido"
+          },
+          {
+            id: 2,
+            author: {
+              name: "Mirele Mazza",
+              avatar:
+                "http://emkis.profissional.ws/comment-feed/assets/avatars/mirele-profile.jpg"
+            },
+            date: "22 Fev 2020",
+            content: "não falei nada mas falei tudo, amém Kant"
+          },
+          {
+            id: 3,
+            author: {
+              name: "Andre Martini",
+              avatar:
+                "http://emkis.profissional.ws/comment-feed/assets/avatars/andre-profile.jpg"
+            },
+            date: "23 Fev 2020",
+            content: "vou te dizer que ai tu foi longe"
           }
         ]
       }
