@@ -12,27 +12,8 @@ to clone this repository and run this app, you'll need **[git](https://git-scm.c
 
 i highly recommend **[yarn](https://yarnpkg.com/)** for handling node packages faster, but you can use npm if you want, no problem.
 
-**from your command line:**
+**from your command line *(using npm)*:**
 
-using yarn: 
-```bash
-# clone this repository
-$ git clone https://github.com/emkis/comment-feed.git
-
-# go into the repository
-$ cd comment-feed
-
-# install dependencies
-$ yarn
-
-# run the app in development mode
-$ yarn start
-
-# build the app for production
-$ yarn build
-```
-
-using npm: 
 ```bash
 # clone this repository
 $ git clone https://github.com/emkis/comment-feed.git
