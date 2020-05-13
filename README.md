@@ -26,9 +26,6 @@ $ npm install
 
 # run the app in development mode
 $ npm run start
-
-# build the app for production
-$ npm run build
 ```
 
 # :memo: license
