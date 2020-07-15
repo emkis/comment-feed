@@ -1,6 +1,5 @@
 ![just a beautiful structure for social media comment flow](https://github.com/emkis/comment-feed/blob/master/.github/comment%20feed%20-%20vertical.png?raw=true)
 
-
 # :hammer: how it was built
 this project was developed with the following technologies:
 
@@ -28,10 +27,6 @@ $ npm install
 $ npm run start
 ```
 
-# :memo: license
-this project is under the **MIT license**, you can see the **[license](https://github.com/emkis/comment-feed/blob/master/LICENSE)** for more information.
-
 ---
-
 
 :v: **[say hello](https://www.linkedin.com/in/nicolas-jardim/)** to me on linkedin or send me and **[email](mailto:nicolasemkis@gmail.com)** :mailbox:
